@@ -1,0 +1,7 @@
+# from "curl ..."
+cmake-3.5.2
+
+# from "make install"
+bin
+doc
+share
