@@ -10,7 +10,10 @@
   "bugs": {
     "url": "https://github.com/brave/install-cmake/issues"
   },
+  "bin": {
+    "cmake": "./bin/cmake"
+  },
   "scripts": {
-    "install": "curl 'https://cmake.org/files/v3.5/cmake-3.5.2.tar.gz' -s -o - | tar xpfz - && D=`pwd` && cd cmake-3.5.2 && ./configure --prefix=$D && make && make install"
+    "preinstall": "curl 'https://cmake.org/files/v3.5/cmake-3.5.2.tar.gz' -s -o - | tar xpfz - && D=`pwd` && cd cmake-3.5.2 && ./configure --prefix=$D && make && make install",
   }
 }
