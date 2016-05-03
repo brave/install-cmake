@@ -1,5 +1,5 @@
 {
-  "name": "cmake",
+  "name": "install-cmake",
   "version": "3.5.2",
   "repository": {
     "type": "git",

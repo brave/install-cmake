@@ -5,3 +5,6 @@ cmake-3.5.2
 bin
 doc
 share
+
+# and so on...
+npm-debug.log
