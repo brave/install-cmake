@@ -1,0 +1,26 @@
+---------------------------
+Windows Script Host
+---------------------------
+UpgradeCode  {8FFD1D72-B7F1-11E2-8EE5-00238BCA4991}
+ADD_CMAKE_TO_PATH  None
+WixUIRMOption  UseRM
+WIXUI_INSTALLDIR  INSTALL_ROOT
+ALLUSERS  1
+ARPNOMODIFY  1
+ARPPRODUCTICON  ProductIcon.ico
+ARPCOMMENTS  CMake is a cross-platform, open-source build system.
+ARPCONTACT  cmake@cmake.org
+ARPURLINFOABOUT  https://cmake.org
+Manufacturer  Kitware
+ProductCode  {39237166-D5CD-4F15-AC14-83287D8F372D}
+ProductLanguage  1033
+ProductName  CMake
+ProductVersion  3.5.2
+DefaultUIFont  WixUI_Font_Normal
+WixUI_Mode  InstallDir
+ErrorDialog  ErrorDlg
+SecureCustomProperties  INSTALL_ROOT;WIX_UPGRADE_DETECTED
+
+---------------------------
+OK
+---------------------------

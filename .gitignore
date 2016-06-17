@@ -1,5 +1,6 @@
 # from "curl ..."
 cmake-3.5.2
+cmake.msi
 
 # from "make install"
 bin
@@ -9,3 +10,4 @@ share
 # and so on...
 npm-debug.log
 node_modules
+install.log
