@@ -1,9 +1,9 @@
 {
   "name": "install-cmake",
-  "version": "3.5.4",
+  "version": "3.5.5",
   "repository": {
     "type": "git",
-    "url": "https://github.com/install-cmake/ledger.git"
+    "url": "https://github.com/brave/install-cmake"
   },
   "author": "Brave Developers <support@brave.com>",
   "license": "MPL-2.0",
